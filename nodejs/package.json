@@ -1,0 +1,9 @@
+{
+  "name": "ussd-flow-exchange-nodejs",
+  "version": "1.0.0",
+  "description": "Monime USSD Flow Exchange Server — Node.js with RSA-OAEP-SHA256 + AES-128-GCM encryption",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "description": "Security test flow for verifying encryption implementations. Replace the URLs with your own exchange server endpoint.",
+  "pages": [
+    {
+      "id": "security_test_start",
+      "component": {
+        "type": "dynamic",
+        "url": "https://YOUR_SERVER_URL/api/exchange"
+      }
+    },
+    {
+      "id": "security_test_menu",
+      "component": {
+        "type": "menu",
+        "label": "$(data.message)",
+        "items": "$(data.items)"
+      },
+      "on_done": {
+        "action": "exchange",
+        "url": "https://YOUR_SERVER_URL/api/exchange"
+      }
+    },
+    {
+      "id": "security_test_result",
+      "component": {
+        "type": "display",
+        "label": "$(data.message)"
+      },
+      "on_done": {
+        "action": "exchange",
+        "url": "https://YOUR_SERVER_URL/api/exchange"
+      }
+    }
+  ]
+}

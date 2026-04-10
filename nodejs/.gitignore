@@ -1,0 +1,20 @@
+# Node
+node_modules/
+
+# Keys
+*.pem
+*.key
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Vercel
+.vercel
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store

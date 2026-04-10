@@ -8,10 +8,15 @@ These are working, tested, deployable servers — not just code snippets. Use th
 
 | Language | Directory | Framework | Deployment | Dependencies |
 |----------|-----------|-----------|------------|--------------|
+| [Node.js](./nodejs) | `nodejs/` | Built-in crypto | Vercel | None (reference implementation) |
 | [Python](./python) | `python/` | Flask | Vercel | `cryptography` |
 | [Go](./go) | `go/` | net/http | Vercel | None (stdlib) |
 | [Java](./java) | `java/` | JDK HttpServer | Docker (Railway/Render) | None (JDK) |
 | [PHP](./php) | `php/` | Plain PHP | Vercel (community runtime) | `phpseclib/phpseclib` v3 |
+
+## Security Test Flow
+
+The [`flow/`](./flow) directory contains the USSD flow JSON definition used for testing. Import it into the Monime dashboard and point its URLs to your deployed exchange server. See [`flow/README.md`](./flow/README.md) for setup instructions.
 
 ## Encryption Protocol
 
