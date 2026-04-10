@@ -1,0 +1,42 @@
+# Keys
+*.pem
+*.key
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Vercel
+.vercel
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Go
+*.exe
+*.dll
+*.so
+*.dylib
+vendor/
+
+# Java
+*.class
+*.jar
+target/
+out/
+build/
+
+# PHP
+vendor/
+composer.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
